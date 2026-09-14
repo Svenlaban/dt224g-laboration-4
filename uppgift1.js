@@ -2,3 +2,7 @@
 /* Program som skapar variabler som representerar information om en person. */
 "use strict";
 
+const firstName = "Micael";
+const lastName = "Huczkowski";
+const age = 39;
+const isStudent = true;
