@@ -2,3 +2,7 @@
 /* Program som skriver ut alla heltal från 1 till 20*/
 /* Körs enklast med "node uppgift4.js" i terminalen */
 "use strict";
+
+for (let number = 1; number <= 20; number++) {
+  console.log(number);
+}
