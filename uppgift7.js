@@ -12,6 +12,7 @@ const numbers = [
     4
 ];
 
+/* Går igenom arrayen och plussar på varje tal till sum */
 function calculateSum(numberArray) {
   let sum = 0;
 

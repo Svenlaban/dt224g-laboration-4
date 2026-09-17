@@ -5,6 +5,7 @@
 
 const age = 0; /* ändra denna siffra för att få olika resultat */
 
+/* Delar in i ålderskategorier */
 if (age < 18) {
   console.log("Barn");
 } else if (age <= 64) {

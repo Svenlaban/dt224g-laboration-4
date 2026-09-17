@@ -6,6 +6,7 @@
 const cost = 100;
 const quantity = 3;
 
+/* Beräknar totalpriser före pcj efter moms */
 const totalCost = cost * quantity;
 const withTax = totalCost * 1.25;
 

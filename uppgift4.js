@@ -4,7 +4,7 @@
 "use strict";
 
 for (let number = 1; number <= 20; number++) {
-  if (number % 2 === 0) {
+  if (number % 2 === 0) { /* Ett tal är jämt om division med 2 inte ger någon rest */
     console.log(number);
   }
 }

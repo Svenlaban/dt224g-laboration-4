@@ -8,6 +8,7 @@ function calculateArea(width, height) {
   return area;
 }
 
+/* Värdena för varje beräkning sparas i en egen variabel */
 const areaOne = calculateArea(4, 5);
 const areaTwo = calculateArea(6, 7);
 const areaThree = calculateArea(10, 10);
