@@ -20,3 +20,18 @@ const people = [
     city: "Klackamo"
   }
 ];
+
+function printPersonInformation(person) {
+  console.log("Namn:", person.name);
+  console.log("Stad:", person.city);
+
+  if (person.age >= 18) {
+    console.log("Personen är myndig.");
+  } else {
+    console.log("Personen är minderårig.");
+  }
+}
+
+for (let index = 0; index < people.length; index++) {
+  printPersonInformation(people[index]);
+}
