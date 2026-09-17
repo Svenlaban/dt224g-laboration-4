@@ -32,6 +32,7 @@ function printPersonInformation(person) {
   }
 }
 
+/* Skickar en person i taget till funktionen */
 for (let index = 0; index < people.length; index++) {
   printPersonInformation(people[index]);
 }
